@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="7.165" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/baoxi/.m2/repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="env.XPC_SERVICE_NAME" value="0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="env._system_arch" value="x86_64"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="env.GEM_HOME" value="/Users/baoxi/.rvm/gems/ruby-2.4.5"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="env.TMPDIR" value="/var/folders/qq/8mj5l1w95rg779ml2xryp2_h0000gn/T/"/>
+    <property name="env.PWD" value="/Users/baoxi/接口自动化测试/test"/>
+    <property name="env.LESS" value="-R"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="env.MY_RUBY_HOME" value="/Users/baoxi/.rvm/rubies/ruby-2.4.5"/>
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.9MLj9ivlMk/Render"/>
+    <property name="env.rvm_version" value="1.29.7 (latest)"/>
+    <property name="http.proxyPort" value="1087"/>
+    <property name="user.name" value="baoxi"/>
+    <property name="maven.build.version" value="Apache Maven 3.6.2 (40f52333136460af0dc0d7232c0dc0bcf0d9e117; 2019-08-27T23:06:16+08:00)"/>
+    <property name="env.USER" value="baoxi"/>
+    <property name="env.SHELL" value="/bin/zsh"/>
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x19:0x34"/>
+    <property name="socksProxyHost" value="127.0.0.1"/>
+    <property name="env._system_type" value="Darwin"/>
+    <property name="env.PATH" value="/Users/baoxi/.rvm/gems/ruby-2.4.5/bin:/Users/baoxi/.rvm/gems/ruby-2.4.5@global/bin:/Users/baoxi/.rvm/rubies/ruby-2.4.5/bin:/usr/local/opt/opencv@2/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/baoxi/.rvm/bin:/Users/baoxi/.rvm/bin:/Users/baoxi/apache-maven-3.6.2/bin"/>
+    <property name="user.language" value="zh"/>
+    <property name="env.rvm_prefix" value="/Users/baoxi"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="classworlds.conf" value="/Users/baoxi/apache-maven-3.6.2/bin/m2.conf"/>
+    <property name="env.XPC_FLAGS" value="0x0"/>
+    <property name="env.rvm_path" value="/Users/baoxi/.rvm"/>
+    <property name="env.LC_CTYPE" value="zh_CN.UTF-8"/>
+    <property name="env.RUBY_VERSION" value="ruby-2.4.5"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="env.ZDOTDIR" value=""/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="env._system_name" value="OSX"/>
+    <property name="http.nonProxyHosts" value="127.0.0.1|localhost|*.localhost"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="env.rvm_bin_path" value="/Users/baoxi/.rvm/bin"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.SHLVL" value="1"/>
+    <property name="file.separator" value="/"/>
+    <property name="env._system_version" value="10.14"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/baoxi/apache-maven-3.6.2/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="CN"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="env.ZSH" value="/Users/baoxi/.oh-my-zsh"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.LOGNAME" value="baoxi"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="https.proxyPort" value="1087"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="env.IRBRC" value="/Users/baoxi/.rvm/rubies/ruby-2.4.5/.irbrc"/>
+    <property name="env.JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="env.TERM" value="xterm-256color"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="socksNonProxyHosts" value="127.0.0.1|localhost|*.localhost"/>
+    <property name="ftp.nonProxyHosts" value="127.0.0.1|localhost|*.localhost"/>
+    <property name="env.LSCOLORS" value="Gxfxcxdxbxegedabagacad"/>
+    <property name="env.GEM_PATH" value="/Users/baoxi/.rvm/gems/ruby-2.4.5:/Users/baoxi/.rvm/gems/ruby-2.4.5@global"/>
+    <property name="socksProxyPort" value="1086"/>
+    <property name="user.home" value="/Users/baoxi"/>
+    <property name="env.JAVA_MAIN_CLASS_4704" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
+    <property name="env.OLDPWD" value="/Users/baoxi/接口自动化测试/test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="env.CLASSPATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/dt.jar:."/>
+    <property name="env.PAGER" value="less"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/baoxi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="library.jansi.path" value="/Users/baoxi/apache-maven-3.6.2/lib/jansi-native"/>
+    <property name="env.MAVEN_CMD_LINE_ARGS" value=" test"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/baoxi/apache-maven-3.6.2"/>
+    <property name="java.class.path" value="/Users/baoxi/apache-maven-3.6.2/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="maven.version" value="3.6.2"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.HOME" value="/Users/baoxi"/>
+    <property name="surefire.test.class.path" value="/Users/baoxi/接口自动化测试/test/target/test-classes:/Users/baoxi/接口自动化测试/test/target/classes:/Users/baoxi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/Users/baoxi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/baoxi/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/baoxi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/Users/baoxi/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar:/Users/baoxi/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar:/Users/baoxi/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar:/Users/baoxi/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/baoxi/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar:/Users/baoxi/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar:/Users/baoxi/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/baoxi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar:/Users/baoxi/.m2/repository/classworlds/classworlds/1.1/classworlds-1.1.jar:/Users/baoxi/.m2/repository/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.jar:/Users/baoxi/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.jar:/Users/baoxi/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/baoxi/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/baoxi/.m2/repository/org/apache/poi/poi/4.1.0/poi-4.1.0.jar:/Users/baoxi/.m2/repository/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar:/Users/baoxi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/baoxi/.m2/repository/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar:/Users/baoxi/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar:/Users/baoxi/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/baoxi/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/baoxi/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="java.io.tmpdir" value="/var/folders/qq/8mj5l1w95rg779ml2xryp2_h0000gn/T/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/baoxi/接口自动化测试/test"/>
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.8E7yiFlixC/Listeners"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/baoxi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="user.dir" value="/Users/baoxi/接口自动化测试/test"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="basedir" value="/Users/baoxi/接口自动化测试/test"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="env.MAVEN_PROJECTBASEDIR" value="/Users/baoxi/接口自动化测试/test"/>
+  </properties>
+  <testcase classname="com.bx.testng.homeTest" name="test" time="1.486"/>
+  <testcase classname="com.bx.testng.LoginTest" name="home" time="3.458">
+    <failure message="登录成功跳转首页失败！ expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 登录成功跳转首页失败！ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at com.bx.testng.LoginTest.home(LoginTest.java:69)
+</failure>
+    <system-out>
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+		&lt;!-- 
+	&lt;base href=&quot;http://mtg.jflyfox.com:80/&quot;&gt;
+	 --&gt;
+	&lt;title&gt;首页 - 门头沟信息网&lt;/title&gt;
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+	&lt;link rel=&quot;icon&quot; href=&quot;http://mtg.jflyfox.com:80/favicon.ico&quot; /&gt;
+	&lt;link rel=&quot;shortcut icon&quot; href=&quot;http://mtg.jflyfox.com:80/favicon.ico&quot; /&gt;
+	&lt;meta http-equiv=&quot;pragma&quot; content=&quot;no-cache&quot;&gt;
+	&lt;meta http-equiv=&quot;cache-control&quot; content=&quot;no-cache&quot;&gt;
+	&lt;meta http-equiv=&quot;expires&quot; content=&quot;0&quot;&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;首页 - 门头沟信息网&quot;&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;首页 - 门头沟信息网&quot;&gt;
+	
+	&lt;script&gt;
+	var jflyfox = {
+		BASE_PATH:&apos;http://mtg.jflyfox.com:80/&apos;
+	}
+	&lt;/script&gt;
+	
+	&lt;!-- IE兼容处理 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+	
+&lt;!--[if lt IE 9]&gt;
+    &lt;script src=&quot;http://cdn.bootcss.com/jquery/1.11.3/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
+    &lt;script src=&quot;http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;!--&lt;![endif]--&gt;
+
+&lt;!-- 
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://mtg.jflyfox.com:80/static/component/jquery/jquery-2.1.4.min.js&quot;&gt;&lt;/script&gt;
+ --&gt;
+ 
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://mtg.jflyfox.com:80/template/mtg/includes/common_pack.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- 
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://mtg.jflyfox.com:80/template/mtg/includes/common.js&quot;&gt;&lt;/script&gt;
+	 --&gt;
+
+&lt;!-- 
+&lt;link rel=&quot;stylesheet&quot; href=&quot;http://mtg.jflyfox.com:80/static/component/bootstrap/css/bootstrap.min.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;http://mtg.jflyfox.com:80/static/component/bootstrap/css/bootstrap-theme.min.css&quot;&gt;
+&lt;script src=&quot;http://mtg.jflyfox.com:80/static/component/bootstrap/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+ --&gt;
+ &lt;!--[if lt IE 9]&gt;
+&lt;link href=&quot;http://cdn.bootcss.com/bootstrap/3.0.3/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;http://cdn.bootcss.com/bootstrap/3.0.3/css/bootstrap-theme.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script src=&quot;http://cdn.bootcss.com/bootstrap/3.0.3/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;!--[if gte IE 9]&gt;&lt;!--&gt;
+    &lt;link href=&quot;http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script src=&quot;http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;!--&lt;![endif]--&gt;
+
+&lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+&lt;!-- WARNING: Respond.js doesn&apos;t work if you view the page via file:// --&gt;
+&lt;!--[if lt IE 9]&gt;
+  &lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+
+&lt;!-- 弹出框重构 --&gt;
+&lt;script src=&quot;http://mtg.jflyfox.com:80/static/component/bootstrap/bootstrap-common_pack.js&quot;&gt;&lt;/script&gt;
+&lt;link href=&quot;http://cdn.bootcss.com/bootstrap3-dialog/1.34.4/css/bootstrap-dialog.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script src=&quot;http://cdn.bootcss.com/bootstrap3-dialog/1.34.4/js/bootstrap-dialog.min.js&quot;&gt;&lt;/script&gt;
+&lt;!-- 
+&lt;script src=&quot;static/component/bootstrap/bootstrap-common.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;static/component/bootstrap3-dialog/css/bootstrap-dialog.min.css&quot;&gt;
+&lt;script src=&quot;static/component/bootstrap3-dialog/js/bootstrap-dialog.min.js&quot;&gt;&lt;/script&gt;
+ --&gt;
+&lt;!-- English to Chinese --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_DEFAULT] = &apos;信息&apos;;
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_INFO] = &apos;信息&apos;;
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_PRIMARY] = &apos;信息&apos;;
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_SUCCESS] = &apos;成功&apos;;
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_WARNING] = &apos;警告&apos;;
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_DANGER] = &apos;危险&apos;;
+BootstrapDialog.DEFAULT_TEXTS[&apos;OK&apos;] = &apos;确定&apos;;
+BootstrapDialog.DEFAULT_TEXTS[&apos;CANCEL&apos;] = &apos;取消&apos;;
+BootstrapDialog.DEFAULT_TEXTS[&apos;CONFIRM&apos;] = &apos;确认&apos;;
+//--&gt;
+&lt;/script&gt;
+	
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://mtg.jflyfox.com:80/template/mtg/includes/common_pack.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- 
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;http://mtg.jflyfox.com:80/static/front/home.css&quot; type=&quot;text/css&quot; media=&quot;screen, projection&quot;&gt;
+	 --&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;http://mtg.jflyfox.com:80/static/front/home.min.css&quot; type=&quot;text/css&quot; media=&quot;screen, projection&quot;&gt;
+
+	&lt;!-- 百度统计 --&gt;
+	&lt;script&gt;
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement(&quot;script&quot;);
+	  hm.src = &quot;//hm.baidu.com/hm.js?1040d081eea13b44d84a4af639640d51&quot;;
+	  var s = document.getElementsByTagName(&quot;script&quot;)[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	&lt;/script&gt;
+	&lt;meta property=&quot;qc:admins&quot; content=&quot;3746002437626416706375&quot; /&gt;
+	&lt;meta name=&quot;baidu-site-verification&quot; content=&quot;HoZ9m8VIaf&quot; /&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--
+	$(function(){
+		$(&apos;.carousel&apos;).carousel({
+			interval: 2000
+		});
+		
+		// js加载避免优先级问题
+		$(&apos;.more&apos;).css(&apos;float&apos;,&apos;right&apos;).css(&apos;font-size&apos;,&apos;12px&apos;).css(&apos;color&apos;,&apos;green&apos;);
+		
+		// 最新新闻
+		$(&quot;#new_news_tab&quot;).on(&apos;mousemove&apos;,function(){
+			$(this).parent(&apos;li&apos;).addClass(&apos;active&apos;);
+			$(&quot;#new_dynamic_tab&quot;).parent(&apos;li&apos;).removeClass(&apos;active&apos;);
+			$(&apos;#new_news&apos;).show();
+			$(&apos;#new_dynamic&apos;).hide();
+			return false;
+		});
+		
+		// 最新动态
+		$(&quot;#new_dynamic_tab&quot;).on(&apos;mousemove&apos;,function(){
+			$(this).parent(&apos;li&apos;).addClass(&apos;active&apos;);
+			$(&quot;#new_news_tab&quot;).parent(&apos;li&apos;).removeClass(&apos;active&apos;);
+			$(&apos;#new_dynamic&apos;).show();
+			$(&apos;#new_news&apos;).hide();
+			return false;
+		});
+		
+	});
+//--&gt;
+&lt;/script&gt;
+
+
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;nav class=&quot;navbar navbar-default navbar-fixed-top&quot;&gt;
+  &lt;div class=&quot;container-fluid&quot;&gt;
+    &lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+    &lt;div class=&quot;navbar-header&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#bs-example-navbar-collapse-1&quot;&gt;
+        &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a class=&quot;navbar-brand&quot; href=&quot;&quot;&gt;&lt;img alt=&quot;Brand&quot; width=&quot;20&quot; height=&quot;20&quot; src=&quot;http://mtg.jflyfox.com:80/static/front/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+    &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;bs-example-navbar-collapse-1&quot;&gt;
+      &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+				&lt;li class=&quot; active &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/home.html&quot;&gt;首页&lt;/a&gt;&lt;/li&gt;
+				&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/news.html&quot;&gt;新闻&lt;/a&gt;&lt;/li&gt;
+				&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/food.html&quot;&gt;美食&lt;/a&gt;&lt;/li&gt;
+				&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/travel.html&quot;&gt;旅游&lt;/a&gt;&lt;/li&gt;
+				&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/education.html&quot;&gt;教育&lt;/a&gt;&lt;/li&gt;
+				&lt;li class=&quot;   &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/front/tags/all&quot;&gt;标签查询&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;dropdown&quot;&gt;
+          &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-expanded=&quot;false&quot;&gt;其他&lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+          &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;
+					&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/park.html&quot;&gt;公园&lt;/a&gt;&lt;/li&gt;
+					&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/market.html&quot;&gt;商场&lt;/a&gt;&lt;/li&gt;
+					&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/house.html&quot;&gt;房产&lt;/a&gt;&lt;/li&gt;
+					&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/other.html&quot;&gt;其他资讯&lt;/a&gt;&lt;/li&gt;
+					&lt;li class=&quot;   &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/front/about&quot;&gt;关于我们&lt;/a&gt;&lt;/li&gt;
+					&lt;li class=&quot;  &quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/advice.html&quot;&gt;意见反馈&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+		
+
+      &lt;/ul&gt;
+      &lt;form class=&quot;navbar-form navbar-left&quot; role=&quot;search&quot; name=&quot;search_form&quot; method=&quot;post&quot;&gt;
+		&lt;div class=&quot;form-group input-group&quot;&gt;
+		  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;search_header&quot; placeholder=&quot;搜索...&quot;&gt;
+		  &lt;span class=&quot;input-group-btn&quot;&gt;
+			&lt;button class=&quot;btn btn-default&quot; type=&quot;button&quot; id=&quot;search_btn&quot;&gt;查询&lt;/button&gt;
+		  &lt;/span&gt;
+		&lt;/div&gt;
+      &lt;/form&gt;
+      &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+			&lt;li&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/oauth2/login.html?loin_type=baidu&quot; class=&quot;navbar-brand&quot; &gt;&lt;img alt=&quot;Brand&quot; src=&quot;http://mtg.jflyfox.com:80/static/oauth2/baidu_login.png&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/oauth2/login.html?loin_type=qq&quot; class=&quot;navbar-brand&quot; &gt;&lt;img alt=&quot;Brand&quot; src=&quot;http://mtg.jflyfox.com:80/static/oauth2/qq_login.png&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/front/login.html&quot;&gt;登录&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;&quot;&gt;&lt;a href=&quot;http://mtg.jflyfox.com:80/front/regist.html&quot; &gt;注册&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;
+  &lt;/div&gt;&lt;!-- /.container-fluid --&gt;
+&lt;/nav&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;!-- 固定导航 --&gt;
+	&lt;div class=&quot;row&quot; style=&quot;height:60px;&quot;&gt;
+	  &lt;div class=&quot;col-md-12&quot;&gt;
+			&amp;nbsp;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+	
+
+&lt;div class=&quot;container&quot;&gt;
+	
+	&lt;div class=&quot;row&quot;&gt;
+	  
+	  &lt;!-- 图片 --&gt;
+	  &lt;div class=&quot;col-md-8&quot;&gt;
+		
+		&lt;div class=&quot;panel panel-default&quot;&gt;
+		  &lt;div class=&quot;panel-body&quot; style=&quot;padding: 0px;&quot;&gt;
+	
+				 &lt;div id=&quot;carousel-example-generic&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+					  &lt;!-- Indicators --&gt;
+					  &lt;ol class=&quot;carousel-indicators&quot;&gt;
+						  	&lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+						  	&lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;1&quot; &gt;&lt;/li&gt;
+						  	&lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;2&quot; &gt;&lt;/li&gt;
+						  	&lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;3&quot; &gt;&lt;/li&gt;
+					  &lt;/ol&gt;
+	
+					  &lt;!-- Wrapper for slides --&gt;
+					  &lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
+							&lt;div style=&quot;height: 450px;&quot; class=&quot;item active&quot;&gt;
+							  &lt;a href=&quot;http://www.jflyfox.com/mtg/front/article/329.html&quot; target=&quot;_blank&quot;&gt;
+							   	&lt;img src=&quot;jflyfox/mtg/roll_image/20160921_002820_846820.jpg&quot; alt=&quot;百花山&quot;&gt;
+							  &lt;/a&gt;
+							  &lt;div class=&quot;carousel-caption&quot;&gt;
+								&lt;h4&gt;&lt;/h4&gt;
+								&lt;p&gt;百花山&lt;/p&gt;
+							  &lt;/div&gt;
+							&lt;/div&gt;
+							&lt;div style=&quot;height: 450px;&quot; class=&quot;item &quot;&gt;
+							  &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;
+							   	&lt;img src=&quot;jflyfox/mtg/roll_image/20160921_002839_692769.jpg&quot; alt=&quot;美丽门城&quot;&gt;
+							  &lt;/a&gt;
+							  &lt;div class=&quot;carousel-caption&quot;&gt;
+								&lt;h4&gt;&lt;/h4&gt;
+								&lt;p&gt;美丽门城&lt;/p&gt;
+							  &lt;/div&gt;
+							&lt;/div&gt;
+							&lt;div style=&quot;height: 450px;&quot; class=&quot;item &quot;&gt;
+							  &lt;a href=&quot;http://www.jflyfox.com/mtg/front/article/406.html&quot; target=&quot;_blank&quot;&gt;
+							   	&lt;img src=&quot;jflyfox/mtg/roll_image/20160921_002850_632730.jpg&quot; alt=&quot;永定塔&quot;&gt;
+							  &lt;/a&gt;
+							  &lt;div class=&quot;carousel-caption&quot;&gt;
+								&lt;h4&gt;&lt;/h4&gt;
+								&lt;p&gt;永定塔&lt;/p&gt;
+							  &lt;/div&gt;
+							&lt;/div&gt;
+							&lt;div style=&quot;height: 450px;&quot; class=&quot;item &quot;&gt;
+							  &lt;a href=&quot;http://www.jflyfox.com/mtg/front/article/330.html&quot; target=&quot;_blank&quot;&gt;
+							   	&lt;img src=&quot;jflyfox/mtg/roll_image/20160921_002901_318950.jpg&quot; alt=&quot;爨底下&quot;&gt;
+							  &lt;/a&gt;
+							  &lt;div class=&quot;carousel-caption&quot;&gt;
+								&lt;h4&gt;&lt;/h4&gt;
+								&lt;p&gt;爨底下&lt;/p&gt;
+							  &lt;/div&gt;
+							&lt;/div&gt;
+						
+						
+					  &lt;/div&gt;
+	
+					  &lt;!-- Controls --&gt;
+					  &lt;a class=&quot;left carousel-control&quot; href=&quot;#carousel-example-generic&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+						&lt;span class=&quot;glyphicon glyphicon-chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+						&lt;span class=&quot;sr-only&quot;&gt;上一页&lt;/span&gt;
+					  &lt;/a&gt;
+					  &lt;a class=&quot;right carousel-control&quot; href=&quot;#carousel-example-generic&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+						&lt;span class=&quot;glyphicon glyphicon-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+						&lt;span class=&quot;sr-only&quot;&gt;下一页&lt;/span&gt;
+					  &lt;/a&gt;
+					&lt;/div&gt;
+		  &lt;/div&gt;
+		&lt;/div&gt;
+	  
+	  &lt;/div&gt;
+	  
+	  &lt;!--  新闻 --&gt;
+	  &lt;div class=&quot;col-md-4&quot;&gt;
+		  	&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+			  &lt;li role=&quot;presentation&quot; class=&quot;active&quot; style=&quot;cursor: pointer;&quot;&gt;
+			  	&lt;a style=&quot;cursor:pointer;&quot; href=&quot;#&quot; onclick=&quot;return false;&quot; id=&quot;new_news_tab&quot;&gt;最新新闻&lt;/a&gt;
+			  &lt;/li&gt;
+			  &lt;li role=&quot;presentation&quot; &gt;
+			  	&lt;a style=&quot;cursor:pointer;&quot; href=&quot;#&quot;  onclick=&quot;return false;&quot; id=&quot;new_dynamic_tab&quot;&gt;最新动态&lt;/a&gt;
+			  &lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;div id=&quot;new_news&quot;  class=&quot;panel panel-default&quot; 
+				style=&quot;border-top-width: 0px;border-radius:0px;border-bottom-right-radius:4px; border-bottom-left-radius: 4px;&quot;&gt;
+			   &lt;!-- List group --&gt;
+			  &lt;ul class=&quot;list-group&quot;&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;04-20&lt;/span&gt;
+						&lt;span class=&quot;label label-success&quot;&gt;1&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/112.html&quot; target=&quot;_blank&quot; title=&quot;S1线6号线西延 明年年底开通&quot;&gt;
+							S1线6号线西延 明年年底开通
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;06-10&lt;/span&gt;
+						&lt;span class=&quot;label label-success&quot;&gt;2&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4484.html&quot; target=&quot;_blank&quot; title=&quot;北京四大市级机关有望年底启动搬迁副中心&quot;&gt;
+							北京四大市级机关有望年底启动搬迁...
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;06-10&lt;/span&gt;
+						&lt;span class=&quot;label label-success&quot;&gt;3&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4483.html&quot; target=&quot;_blank&quot; title=&quot;北京首条磁浮线路开始联调联试 有望年内试运营&quot;&gt;
+							北京首条磁浮线路开始联调联试 有...
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;05-27&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;4&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4475.html&quot; target=&quot;_blank&quot; title=&quot;楚雄紫溪山樱桃节开幕，公交车直达樱桃园&quot;&gt;
+							楚雄紫溪山樱桃节开幕，公交车直达...
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;03-24&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;5&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4400.html&quot; target=&quot;_blank&quot; title=&quot;门头沟：举办“清风雅韵”书画展&quot;&gt;
+							门头沟：举办“清风雅韵”书画展
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;03-21&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;6&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4399.html&quot; target=&quot;_blank&quot; title=&quot;门头沟京西古道文化再现 居民告别采石业&quot;&gt;
+							门头沟京西古道文化再现 居民告别...
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;03-16&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;7&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4398.html&quot; target=&quot;_blank&quot; title=&quot;副市长王宁赴门头沟调研乡村教师支持计划落实情况北京市教育委员会&quot;&gt;
+							副市长王宁赴门头沟调研乡村教师支...
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;03-13&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;8&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4397.html&quot; target=&quot;_blank&quot; title=&quot;两男子爬门头沟野山被困 手机定位获救&quot;&gt;
+							两男子爬门头沟野山被困 手机定位...
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;03-14&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;9&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4396.html&quot; target=&quot;_blank&quot; title=&quot;门头沟工商分局“3.15”系列普法宣传活动正式启动&quot;&gt;
+							门头沟工商分局“3.15”系列普...
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;03-10&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;10&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4395.html&quot; target=&quot;_blank&quot; title=&quot;门头沟农副市场变生活超市：“整治不是简单的关停”&quot;&gt;
+							门头沟农副市场变生活超市：“整治...
+						&lt;/a&gt;
+					&lt;/li&gt;
+			  &lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div id=&quot;new_dynamic&quot; class=&quot;panel panel-default&quot; 
+				style=&quot;border-top-width: 0px;border-radius:0px;border-bottom-right-radius:4px;border-bottom-left-radius: 4px;display: none;&quot;&gt;
+			   &lt;!-- List group --&gt;
+			  &lt;ul class=&quot;list-group&quot;&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;09-24&lt;/span&gt;
+						&lt;span class=&quot;label label-success&quot;&gt;1&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4644.html&quot; target=&quot;_blank&quot; title=&quot;13u24&quot;&gt;
+							13u24
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;09-24&lt;/span&gt;
+						&lt;span class=&quot;label label-success&quot;&gt;2&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4643.html&quot; target=&quot;_blank&quot; title=&quot;hahahaha&quot;&gt;
+							hahahaha
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;09-20&lt;/span&gt;
+						&lt;span class=&quot;label label-success&quot;&gt;3&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4639.html&quot; target=&quot;_blank&quot; title=&quot;我喜欢你&quot;&gt;
+							我喜欢你
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;09-11&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;4&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4637.html&quot; target=&quot;_blank&quot; title=&quot;0,0,9&quot;&gt;
+							0,0,9
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;08-05&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;5&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4636.html&quot; target=&quot;_blank&quot; title=&quot;是DVD是&quot;&gt;
+							是DVD是
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;07-26&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;6&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4633.html&quot; target=&quot;_blank&quot; title=&quot;111111&quot;&gt;
+							111111
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;07-22&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;7&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4632.html&quot; target=&quot;_blank&quot; title=&quot;测试博文&quot;&gt;
+							测试博文
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;07-17&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;8&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4631.html&quot; target=&quot;_blank&quot; title=&quot;TEST&quot;&gt;
+							TEST
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;07-14&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;9&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4630.html&quot; target=&quot;_blank&quot; title=&quot;www&quot;&gt;
+							www
+						&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;list-group-item&quot;&gt;
+						&lt;span class=&quot;badge&quot;&gt;07-03&lt;/span&gt;
+						&lt;span class=&quot;label label-info&quot;&gt;10&lt;/span&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/4628.html&quot; target=&quot;_blank&quot; title=&quot;shxjia&quot;&gt;
+							shxjia
+						&lt;/a&gt;
+					&lt;/li&gt;
+			  &lt;/ul&gt;
+			&lt;/div&gt;
+	
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+	  &lt;div class=&quot;col-md-8&quot;&gt;
+	  		&lt;div class=&quot;thumbnail&quot; style=&quot;padding: 3px 0 0 50px;&quot;&gt;
+		  	&lt;!-- 广告位 --&gt;
+			     &lt;script type=&quot;text/javascript&quot;&gt;
+				    /*中间左边*/
+				    var cpro_id = &quot;u2145243&quot;;
+				&lt;/script&gt;
+				&lt;script src=&quot;http://cpro.baidustatic.com/cpro/ui/c.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+			&lt;/div&gt;
+			
+	  &lt;/div&gt;
+	  &lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;div class=&quot;thumbnail&quot; style=&quot;padding: 3px 0 0 5px;&quot;&gt;
+		&lt;script type=&quot;text/javascript&quot;&gt;
+		    /*中间右边*/
+		    var cpro_id = &quot;u2145322&quot;;
+		&lt;/script&gt;
+		&lt;script src=&quot;http://cpro.baidustatic.com/cpro/ui/c.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+		&lt;/div&gt;		
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+	 	
+	  &lt;div class=&quot;col-md-8&quot;&gt;
+	  	&lt;!-- 旅游 --&gt;
+	  	&lt;div class=&quot;panel panel-default&quot;&gt;
+		  &lt;div class=&quot;panel-heading&quot;&gt;
+		  	&lt;h3 class=&quot;panel-title&quot;&gt;
+				&lt;a href=&quot;http://mtg.jflyfox.com:80/travel.html&quot; target=&quot;_blank&quot;&gt;旅游&lt;/a&gt;
+				&lt;a class=&quot;more&quot; href=&quot;http://mtg.jflyfox.com:80/travel.html&quot; target=&quot;_blank&quot;&gt;更多&lt;/a&gt;
+			&lt;/h3&gt;
+		  &lt;/div&gt;
+		  &lt;div class=&quot;panel-body&quot;&gt;
+		  
+		  &lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/333.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;妙峰山&quot; src=&quot;jflyfox/mtg/article_image/20160921_003000_778011.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/333.html&quot; target=&quot;_blank&quot;&gt;妙峰山&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/332.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;龙门涧&quot; src=&quot;jflyfox/mtg/article_image/20160921_003012_105882.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/332.html&quot; target=&quot;_blank&quot;&gt;龙门涧&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/331.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;灵山&quot; src=&quot;jflyfox/mtg/article_image/20160921_003022_47566.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/331.html&quot; target=&quot;_blank&quot;&gt;灵山&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+		  &lt;/div&gt;
+		  &lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/330.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;爨底下&quot; src=&quot;jflyfox/mtg/article_image/20160921_003030_488808.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/330.html&quot; target=&quot;_blank&quot;&gt;爨底下&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/329.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;百花山&quot; src=&quot;jflyfox/mtg/article_image/20160921_003044_629504.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/329.html&quot; target=&quot;_blank&quot;&gt;百花山&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/328.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;双龙峡&quot; src=&quot;jflyfox/mtg/article_image/20160921_003055_451173.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/328.html&quot; target=&quot;_blank&quot;&gt;双龙峡&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+		  &lt;/div&gt;
+		  &lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/327.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;潭柘寺&quot; src=&quot;jflyfox/mtg/article_image/20160921_003113_777690.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/327.html&quot; target=&quot;_blank&quot;&gt;潭柘寺&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/326.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;戒台寺&quot; src=&quot;jflyfox/mtg/article_image/20160921_003125_699684.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/326.html&quot; target=&quot;_blank&quot;&gt;戒台寺&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+			&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
+		        &lt;div class=&quot;thumbnail&quot;&gt;
+		          &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/325.html&quot; target=&quot;_blank&quot;&gt;
+		          &lt;img alt=&quot;定都阁&quot; src=&quot;jflyfox/mtg/article_image/20160921_003135_296202.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 200px; width: 100%; display: block;&quot;&gt;
+		          &lt;/a&gt;
+		          &lt;div class=&quot;caption&quot;&gt;
+		            &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/325.html&quot; target=&quot;_blank&quot;&gt;定都阁&lt;/a&gt;
+		          &lt;/div&gt;
+		        &lt;/div&gt;
+		      &lt;/div&gt;
+		  &lt;/div&gt;
+		  &lt;div class=&quot;row&quot;&gt;
+		  &lt;/div&gt;
+	
+		  &lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;!-- 地图 --&gt;
+		&lt;div class=&quot;panel panel-default&quot;&gt;
+		  &lt;div class=&quot;panel-heading&quot;&gt;
+			&lt;h3 class=&quot;panel-title&quot;&gt;地图&lt;/h3&gt;
+		  &lt;/div&gt;
+		  &lt;div class=&quot;panel-body&quot; style=&quot;padding: 0px;&quot;&gt;
+		  	&lt;div  class=&quot;thumbnail&quot; &gt;
+		    	    &lt;img width=&quot;100%&quot; height=&quot;450&quot; src=&quot;http://api.map.baidu.com/staticimage?center=116.186394,39.907031&amp;zoom=13&amp;width=930&amp;height=450&amp;markers=116.109356,39.925625&quot;/&gt;
+		    &lt;/div&gt;
+		  &lt;/div&gt;
+		&lt;/div&gt;
+	  &lt;/div&gt;
+	
+	  &lt;div class=&quot;col-md-4&quot;&gt;	
+		
+		&lt;!-- 美食 --&gt;
+		&lt;div class=&quot;panel panel-default&quot;&gt;
+		  &lt;div class=&quot;panel-heading&quot;&gt;
+		  	&lt;h3 class=&quot;panel-title&quot;&gt;
+				&lt;a href=&quot;http://mtg.jflyfox.com:80/food.html&quot; target=&quot;_blank&quot;&gt;美食&lt;/a&gt;
+				&lt;a class=&quot;more&quot; href=&quot;http://mtg.jflyfox.com:80/food.html&quot; target=&quot;_blank&quot;&gt;更多&lt;/a&gt;
+			&lt;/h3&gt;
+		  &lt;/div&gt;
+		  &lt;div class=&quot;panel-body&quot; style=&quot;padding-bottom:0px;&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;
+			  	 &lt;div class=&quot;col-md-6&quot;&gt;
+					&lt;div class=&quot;thumbnail&quot;&gt;
+					  &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/673.html&quot; target=&quot;_blank&quot;&gt;
+					  &lt;img alt=&quot;门头沟新桥炸鸡店&quot; src=&quot;jflyfox/mtg/article_image/20160921_003156_474275.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 120px; width: 100%; display: block;&quot;&gt;
+					  &lt;/a&gt;
+					  &lt;div class=&quot;caption&quot;&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/673.html&quot; target=&quot;_blank&quot;&gt;门头沟新桥炸鸡店&lt;/a&gt;
+					  &lt;/div&gt;
+					&lt;/div&gt;
+				  &lt;/div&gt;
+			  	 &lt;div class=&quot;col-md-6&quot;&gt;
+					&lt;div class=&quot;thumbnail&quot;&gt;
+					  &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/340.html&quot; target=&quot;_blank&quot;&gt;
+					  &lt;img alt=&quot;门头沟新新包子铺&quot; src=&quot;jflyfox/mtg/article_image/20160921_003204_999649.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 120px; width: 100%; display: block;&quot;&gt;
+					  &lt;/a&gt;
+					  &lt;div class=&quot;caption&quot;&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/340.html&quot; target=&quot;_blank&quot;&gt;门头沟新新包子铺&lt;/a&gt;
+					  &lt;/div&gt;
+					&lt;/div&gt;
+				  &lt;/div&gt;
+			&lt;/div&gt;
+		  &lt;/div&gt;
+			
+		 &lt;ul class=&quot;list-group&quot;&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-30&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/672.html&quot; target=&quot;_blank&quot; title=&quot;玉林串串香(门头沟店)&quot;&gt;
+						玉林串串香(门头沟店)
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-21&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/633.html&quot; target=&quot;_blank&quot; title=&quot;【门头沟】汉釜宫自助烤肉&quot;&gt;
+						【门头沟】汉釜宫自助烤肉
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-11&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/580.html&quot; target=&quot;_blank&quot; title=&quot;好伦哥(门头沟店)&quot;&gt;
+						好伦哥(门头沟店)
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-11&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/579.html&quot; target=&quot;_blank&quot; title=&quot;黄记煌三汁焖锅(门头沟华润店)&quot;&gt;
+						黄记煌三汁焖锅(门头沟华润店)
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-08&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/565.html&quot; target=&quot;_blank&quot; title=&quot;阿田大虾(门头沟店)&quot;&gt;
+						阿田大虾(门头沟店)
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-08&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/564.html&quot; target=&quot;_blank&quot; title=&quot;四季大盘涮肉园(双峪店)&quot;&gt;
+						四季大盘涮肉园(双峪店)
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-08&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/563.html&quot; target=&quot;_blank&quot; title=&quot;宴桃园餐厅(门头沟店)&quot;&gt;
+						宴桃园餐厅(门头沟店)
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;05-24&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/342.html&quot; target=&quot;_blank&quot; title=&quot;老家肉饼&quot;&gt;
+						老家肉饼
+					&lt;/a&gt;
+				&lt;/li&gt;
+		  &lt;/ul&gt;
+			
+		&lt;/div&gt;
+		
+		&lt;!-- 广告 --&gt;
+&lt;div class=&quot;panel panel-default&quot; style=&quot;padding: 5px 0px 5px 10px;&quot;&gt;
+    &lt;!-- 创意广告  --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+	    var cpro_id=&quot;u2214479&quot;;
+	    (window[&quot;cproStyleApi&quot;] = window[&quot;cproStyleApi&quot;] || {})[cpro_id]={at:&quot;3&quot;,rsi0:&quot;336&quot;,rsi1:&quot;280&quot;,pat:&quot;17&quot;,tn:&quot;baiduCustNativeAD&quot;,rss1:&quot;#FFFFFF&quot;,conBW:&quot;1&quot;,adp:&quot;1&quot;,ptt:&quot;0&quot;,titFF:&quot;&quot;,titFS:&quot;14&quot;,rss2:&quot;#000000&quot;,titSU:&quot;0&quot;}
+	&lt;/script&gt;
+	&lt;script src=&quot;http://cpro.baidustatic.com/cpro/ui/c.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+	
+	&lt;!-- 右侧广告  --&gt;                        
+ &lt;!--
+  &lt;script type=&quot;text/javascript&quot;&gt;
+    var cpro_id = &quot;u2145342&quot;;
+	&lt;/script&gt;
+	&lt;script src=&quot;http://cpro.baidustatic.com/cpro/ui/c.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+	--&gt;
+&lt;/div&gt;		
+		&lt;!-- 教育 --&gt;
+		&lt;div class=&quot;panel panel-default&quot;&gt;
+		  &lt;div class=&quot;panel-heading&quot;&gt;
+			&lt;h3 class=&quot;panel-title&quot;&gt;
+				&lt;a href=&quot;http://mtg.jflyfox.com:80/education.html&quot; target=&quot;_blank&quot;&gt;教育&lt;/a&gt;
+				&lt;a class=&quot;more&quot; href=&quot;http://mtg.jflyfox.com:80/education.html&quot; target=&quot;_blank&quot;&gt;更多&lt;/a&gt;
+			&lt;/h3&gt;
+		  &lt;/div&gt;
+		  
+		  &lt;div class=&quot;panel-body&quot; style=&quot;padding-bottom:0px;&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;
+			  	 &lt;div class=&quot;col-md-6&quot;&gt;
+					&lt;div class=&quot;thumbnail&quot;&gt;
+					  &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/343.html&quot; target=&quot;_blank&quot;&gt;
+					  &lt;img alt=&quot;大峪中学&quot; src=&quot;jflyfox/mtg/article_image/20160921_003220_751387.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 120px; width: 100%; display: block;&quot;&gt;
+					  &lt;/a&gt;
+					  &lt;div class=&quot;caption&quot;&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/343.html&quot; target=&quot;_blank&quot;&gt;大峪中学&lt;/a&gt;
+					  &lt;/div&gt;
+					&lt;/div&gt;
+				  &lt;/div&gt;
+			  	 &lt;div class=&quot;col-md-6&quot;&gt;
+					&lt;div class=&quot;thumbnail&quot;&gt;
+					  &lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/378.html&quot; target=&quot;_blank&quot;&gt;
+					  &lt;img alt=&quot;城子小学&quot; src=&quot;jflyfox/mtg/article_image/20160921_003228_917384.jpg&quot; data-holder-rendered=&quot;true&quot; style=&quot;height: 120px; width: 100%; display: block;&quot;&gt;
+					  &lt;/a&gt;
+					  &lt;div class=&quot;caption&quot;&gt;
+						&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/378.html&quot; target=&quot;_blank&quot;&gt;城子小学&lt;/a&gt;
+					  &lt;/div&gt;
+					&lt;/div&gt;
+				  &lt;/div&gt;
+			&lt;/div&gt;
+		  &lt;/div&gt;
+		  
+		  &lt;ul class=&quot;list-group&quot;&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-03&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/449.html&quot; target=&quot;_blank&quot; title=&quot;城子幼儿园&quot;&gt;
+						城子幼儿园
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-03&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/448.html&quot; target=&quot;_blank&quot; title=&quot;东辛房幼儿园&quot;&gt;
+						东辛房幼儿园
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-03&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/447.html&quot; target=&quot;_blank&quot; title=&quot;门头沟区幼儿园&quot;&gt;
+						门头沟区幼儿园
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-03&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/446.html&quot; target=&quot;_blank&quot; title=&quot;世纪之星幼儿园&quot;&gt;
+						世纪之星幼儿园
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-03&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/445.html&quot; target=&quot;_blank&quot; title=&quot;王平村中心小学附属幼儿园&quot;&gt;
+						王平村中心小学附属幼儿园
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-03&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/444.html&quot; target=&quot;_blank&quot; title=&quot;北京市新星幼儿园&quot;&gt;
+						北京市新星幼儿园
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-03&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/443.html&quot; target=&quot;_blank&quot; title=&quot;智慧摇篮倚山幼儿园&quot;&gt;
+						智慧摇篮倚山幼儿园
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;list-group-item&quot;&gt;
+					&lt;span class=&quot;badge&quot;&gt;06-02&lt;/span&gt;
+					&lt;a href=&quot;http://mtg.jflyfox.com:80/front/article/435.html&quot; target=&quot;_blank&quot; title=&quot;育园小学&quot;&gt;
+						育园小学
+					&lt;/a&gt;
+				&lt;/li&gt;
+		  &lt;/ul&gt;
+		  
+		&lt;/div&gt;
+		
+		&lt;!-- 友情链接 --&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+  &lt;div class=&quot;panel-heading&quot;&gt;
+	&lt;h3 class=&quot;panel-title&quot;&gt;友情链接&lt;/h3&gt;
+  &lt;/div&gt;
+  
+  &lt;ul class=&quot;list-group&quot;&gt;
+		&lt;li class=&quot;list-group-item&quot;&gt;
+			&lt;a href=&quot;http://baike.baidu.com/view/193726.htm?fromtitle=%E9%97%A8%E5%A4%B4%E6%B2%9F&amp;fromid=1055081&amp;type=syn&quot; target=&quot;_blank&quot; title=&quot;门头沟介绍&quot;&gt;
+				门头沟介绍
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li class=&quot;list-group-item&quot;&gt;
+			&lt;a href=&quot;http://www.dyzx-bj.com/&quot; target=&quot;_blank&quot; title=&quot;大峪中学&quot;&gt;
+				大峪中学
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li class=&quot;list-group-item&quot;&gt;
+			&lt;a href=&quot;http://www.jflyfox.com/&quot; target=&quot;_blank&quot; title=&quot;Jflyfox博客&quot;&gt;
+				Jflyfox博客
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li class=&quot;list-group-item&quot;&gt;
+			&lt;a href=&quot;http://www.zyl.me&quot; target=&quot;_blank&quot; title=&quot;ZYL的博客&quot;&gt;
+				ZYL的博客
+			&lt;/a&gt;
+		&lt;/li&gt;
+  &lt;/ul&gt;
+  
+&lt;/div&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;footer class=&quot;mod-footer text-center&quot;&gt;
+		&lt;div class=&quot;footer-box&quot;&gt;
+			&lt;div class=&quot;inner-box&quot;&gt;
+						&lt;a href=&quot;http://www.jflyfox.com/mtg/front/about/353.html&quot; target=&quot;_blank&quot;&gt;联系我们&lt;/a&gt;
+							&lt;span&gt;&amp;nbsp;|&amp;nbsp;&lt;/span&gt;
+						&lt;a href=&quot;http://www.jflyfox.com/mtg/front/about/351.html&quot; target=&quot;_blank&quot;&gt;捐赠我们&lt;/a&gt;
+							&lt;span&gt;&amp;nbsp;|&amp;nbsp;&lt;/span&gt;
+						&lt;a href=&quot;http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=allcU1tTW15dWiobG0QJBQc&quot; target=&quot;_blank&quot;&gt;给我写信&lt;/a&gt;
+							&lt;span&gt;&amp;nbsp;|&amp;nbsp;&lt;/span&gt;
+						&lt;a href=&quot;http://www.jflyfox.com/mtg/advice&quot; target=&quot;_blank&quot;&gt;意见反馈&lt;/a&gt;
+							&lt;span&gt;&amp;nbsp;|&amp;nbsp;&lt;/span&gt;
+						&lt;a href=&quot;http://www.jflyfox.com/mtg/front/about/354.html&quot; target=&quot;_blank&quot;&gt;免责声明&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;copy-box&quot;&gt;
+				&lt;span&gt;©2015&amp;nbsp;FLY的狐狸&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;http://www.miitbeian.gov.cn/&quot; target=&quot;_blank&quot;&gt;京ICP备15023826号-1&lt;/a&gt;
+				&lt;!-- 站长统计 --&gt;
+				&lt;script type=&quot;text/javascript&quot;&gt;var cnzz_protocol = ((&quot;https:&quot; == document.location.protocol) ? &quot; https://&quot; : &quot; http://&quot;);document.write(unescape(&quot;%3Cspan id=&apos;cnzz_stat_icon_1255091723&apos;%3E%3C/span%3E%3Cscript src=&apos;&quot; + cnzz_protocol + &quot;s4.cnzz.com/z_stat.php%3Fid%3D1255091723%26show%3Dpic1&apos; type=&apos;text/javascript&apos;%3E%3C/script%3E&quot;));&lt;/script&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/footer&gt;
+&lt;/div&gt;
+
+&lt;!-- 底部广告 --&gt;
+&lt;!-- 
+&lt;script type=&quot;text/javascript&quot;&gt;
+    /*底部广告*/
+    var cpro_id = &quot;u2144690&quot;;
+&lt;/script&gt;
+&lt;script src=&quot; http://su.bdimg.com/static/dspui/js/uf.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+ --&gt;
+	
+&lt;a id=&quot;scrollTop&quot; href=&quot;javacript:void(0);&quot; title=&quot;返回顶部&quot; style=&quot;display: inline;&quot;&gt;&lt;/a&gt;
+	
+
+&lt;/body&gt;
+&lt;/html&gt;
+</system-out>
+  </testcase>
+  <testcase classname="com.bx.testng.LoginTest" name="test" time="1.164"/>
+</testsuite>
