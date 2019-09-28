@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="9b255f2d-0069-4041-89b3-80832d28e012" />
+      <option name="name" value="9b255f2d-0069-4041-89b3-80832d28e012" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="f297a9da-fb73-45e2-8ad0-9b3bc2ba6f0f" />
+      <option name="name" value="f297a9da-fb73-45e2-8ad0-9b3bc2ba6f0f" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="94d6c376-b025-4411-9b56-9f1e250caa45" />
+      <option name="name" value="94d6c376-b025-4411-9b56-9f1e250caa45" />
+      <option name="url" value="http://repo2.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="047ffbb6-99d7-4245-a053-44345b986121" />
+      <option name="name" value="047ffbb6-99d7-4245-a053-44345b986121" />
+      <option name="url" value="http://mirrors.ibiblio.org/pub/mirrors/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="4a88351b-73f4-4fbd-aab7-621265f562aa" />
+      <option name="name" value="4a88351b-73f4-4fbd-aab7-621265f562aa" />
+      <option name="url" value="http://repository.jboss.org/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="808e9b43-a5aa-4fe9-aae4-b1a4c84c1d09" />
+      <option name="name" value="808e9b43-a5aa-4fe9-aae4-b1a4c84c1d09" />
+      <option name="url" value="https://maven-central.storage.googleapis.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="255eb6d2-975d-42b1-82c3-3f334aa16479" />
+      <option name="name" value="255eb6d2-975d-42b1-82c3-3f334aa16479" />
+      <option name="url" value="https://maven.net.cn/content/groups/public/" />
+    </remote-repository>
+  </component>
+</project>
